@@ -13,6 +13,8 @@
 		573165DF1AC17C2F00F68E75 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 573165DE1AC17C2F00F68E75 /* Images.xcassets */; };
 		573165E21AC17C2F00F68E75 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 573165E01AC17C2F00F68E75 /* LaunchScreen.xib */; };
 		573165EE1AC17C2F00F68E75 /* HelloWorldTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 573165ED1AC17C2F00F68E75 /* HelloWorldTests.swift */; };
+		57E56AC91B612E45002E84BD /* Bubble.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57E56AC81B612E45002E84BD /* Bubble.swift */; };
+		57E56ACB1B613105002E84BD /* BubbleCollection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57E56ACA1B613105002E84BD /* BubbleCollection.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +38,8 @@
 		573165E71AC17C2F00F68E75 /* HelloWorldTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HelloWorldTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		573165EC1AC17C2F00F68E75 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		573165ED1AC17C2F00F68E75 /* HelloWorldTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HelloWorldTests.swift; sourceTree = "<group>"; };
+		57E56AC81B612E45002E84BD /* Bubble.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Bubble.swift; sourceTree = "<group>"; };
+		57E56ACA1B613105002E84BD /* BubbleCollection.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BubbleCollection.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,6 +83,8 @@
 			children = (
 				573165D71AC17C2F00F68E75 /* AppDelegate.swift */,
 				573165D91AC17C2F00F68E75 /* ViewController.swift */,
+				57E56ACA1B613105002E84BD /* BubbleCollection.swift */,
+				57E56AC81B612E45002E84BD /* Bubble.swift */,
 				573165DB1AC17C2F00F68E75 /* Main.storyboard */,
 				573165DE1AC17C2F00F68E75 /* Images.xcassets */,
 				573165E01AC17C2F00F68E75 /* LaunchScreen.xib */,
@@ -156,6 +162,7 @@
 		573165CA1AC17C2F00F68E75 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				LastSwiftUpdateCheck = 0710;
 				LastUpgradeCheck = 0620;
 				ORGANIZATIONNAME = daniel.vaquero;
 				TargetAttributes = {
@@ -213,6 +220,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				573165DA1AC17C2F00F68E75 /* ViewController.swift in Sources */,
+				57E56ACB1B613105002E84BD /* BubbleCollection.swift in Sources */,
+				57E56AC91B612E45002E84BD /* Bubble.swift in Sources */,
 				573165D81AC17C2F00F68E75 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -405,6 +414,7 @@
 				573165F31AC17C2F00F68E75 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		573165F41AC17C2F00F68E75 /* Build configuration list for PBXNativeTarget "HelloWorldTests" */ = {
 			isa = XCConfigurationList;
@@ -413,6 +423,7 @@
 				573165F61AC17C2F00F68E75 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
